@@ -59,7 +59,7 @@ async function ttHandler(token, message) {
 
         let caption = "";
         if(fromId !== chatId)
-            caption += `Sent by: [${escapeStr(message.from.first_name)}](tg://user?id=${fromId})\n`;
+            caption += `Sender by: [${escapeStr(message.from.first_name)}](tg://user?id=${fromId})\n`;
 
         caption += `[Link](${escapeStr(link)})`;
         if (tikwm_resp.data.title)
@@ -127,7 +127,7 @@ async function command_start(token, message) {
     await sendMessage({
         token: token,
         chat_id: message.chat.id,
-        text: "Hi! I am TikTok Bot!\nSend me tiktok link, and I'll send you video."
+        text: "Hi! I am TikTok Downloader 404 Bot!\nSend me tiktok link, and I'll send you video."
     });
 }
 
