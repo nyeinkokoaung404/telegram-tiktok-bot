@@ -17,7 +17,7 @@ Bot that downloads tiktok videos (via tikwm) to telegram. Working on [Cloudflare
 2. Install [Wrangler](https://developers.cloudflare.com/workers/wrangler/install-and-update/#install-wrangler-globally)
 3. Clone repository
 ```shell
-git clone https://github.com/RuslanUC/telegram-tiktok-bot
+git clone https://github.com/nyeinkokoaung404/telegram-tiktok-bot
 cd telegram-tiktok-bot
 ```
 4. (Optional) Change SECRET_KEY in wrangler.toml
